@@ -1,0 +1,7 @@
+.site-header {
+    background-color: #f0a500;   /* 背景色 */
+    padding: 20px 40px;          /* 上下左右の余白 */
+    border-radius: 30px;         /* 角の丸さ */
+    text-align: center;          /* 中央寄せ */
+    color: white;                /* 文字色 */
+}
