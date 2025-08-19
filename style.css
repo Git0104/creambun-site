@@ -15,3 +15,29 @@ body {
     background-position: center;    /* 中央に配置 */
     background-attachment: fixed;   /* スクロールしても固定 */
 }
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.profile-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.profile-text h1 {
+    margin: 0;
+    font-size:2em;
+    color: white;
+}
+
+.profile-text p {
+    font-size: 1.2em;
+    color: white;
+}
