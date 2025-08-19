@@ -26,18 +26,15 @@ body {
 .profile-icon {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
 }
 
 .profile-text h1 {
     margin: 0;
     font-size:2em;
-    color: white;
+    color: black;
 }
 
 .profile-text p {
     font-size: 1.2em;
-    color: white;
+    color: black;
 }
