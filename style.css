@@ -94,6 +94,7 @@ body {
 .main-section {
     text-align: center;       /* 真ん中に揃える */
     margin-top: 50px;
+    font-weight: bold;
 }
 
 .main-title {
