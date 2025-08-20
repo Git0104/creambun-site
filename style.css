@@ -59,3 +59,10 @@ body {
 .profile-links a:hover {
     background-color: #d18c00; /* ホバー時の色 */
 }
+
+.links-title {
+    text-align: center;   /* 真ん中に配置 */
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 20px;
+}
