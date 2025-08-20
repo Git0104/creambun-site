@@ -56,26 +56,26 @@ body {
 .site-btn {
     font-size: 1.8em;             /* 大きな文字 */
     font-weight: bold;
-    color: #ff4d4d;                /* 通常の赤 */
+    color: red;                /* 通常の赤 */
     text-decoration: none;
     padding: 10px 20px;            /* 文字周りの余白 */
-    border: 2px solid #ff4d4d;     /* 線も赤に */
+    border: 2px solid red;     /* 線も赤に */
     border-radius: 5px;
     transition: all 0.3s ease;     /* アニメーション */
 }
 
 .site-btn:hover {
-    color: #ff1a1a;                /* ホバー時は少し暗い赤 */
-    border-color: #ff1a1a;         /* 線も同じ色に変化 */
+    color: red;                /* ホバー時は少し暗い赤 */
+    border-color: red;         /* 線も同じ色に変化 */
 }
 
 .Xsite-btn {
     font-size: 1.8em;            /* 大きめ文字 */
     font-weight: bold;
-    color: #888888;               /* 通常は灰色 */
+    color: black;               /* 通常は灰色 */
     text-decoration: none;
     padding: 10px 20px;           /* 文字周りの余白 */
-    border: 2px solid #888888;    /* 枠線も灰色 */
+    border: 2px solid black;    /* 枠線も灰色 */
     border-radius: 5px;
     transition: all 0.3s ease;    /* スムーズに変化 */
 }
