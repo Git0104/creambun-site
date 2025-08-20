@@ -47,40 +47,46 @@ body {
 }
 
 .links-buttons {
-    display: flex;
+    text-align: center;  /* 子要素の inline-block を中央揃え */
+    margin-top: 20px;
+}
+
+.site-btn, .site-btn2 {
+    display: flex;             /* ボタン内の文字を中央に揃える */
     justify-content: center;
-    gap: 20px;  /* ボタン間の間隔 */
-    flex-wrap: wrap;
+    align-items: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 .site-btn {
-    font-size: 1.8em;             /* 大きな文字 */
-    font-weight: bold;
-    color: red;                /* 通常の赤 */
-    text-decoration: none;
-    padding: 10px 20px;            /* 文字周りの余白 */
-    border: 2px solid red;     /* 線も赤に */
-    border-radius: 5px;
-    transition: all 0.3s ease;     /* アニメーション */
+    color: red;
+    border: 2px solid red;
 }
 
 .site-btn:hover {
-    color: red;                /* ホバー時は少し暗い赤 */
-    border-color: red;         /* 線も同じ色に変化 */
+    color: black;
+    border-color: black;
 }
 
-.Xsite-btn {
-    font-size: 1.8em;            /* 大きめ文字 */
-    font-weight: bold;
-    color: black;               /* 通常は灰色 */
-    text-decoration: none;
-    padding: 10px 20px;           /* 文字周りの余白 */
-    border: 2px solid black;    /* 枠線も灰色 */
-    border-radius: 5px;
-    transition: all 0.3s ease;    /* スムーズに変化 */
+.site-btn2 {
+    color: gray;
+    border: 3px solid gray;
 }
 
-.Xsite-btn:hover {
-    color: #000000;               /* ホバーで黒に */
-    border-color: #000000;        /* 枠線も黒に */
+.site-btn2:hover {
+    color: black;
+    border-color: black;
+}
+
+/* ボタンを横並びにして間隔を開ける */
+.links-buttons {
+    display: flex;
+    justify-content: center;   /* 中央揃え */
+    gap: 40px;                 /* ボタン間の間隔を40pxに調整 */
+    margin-top: 20px;
 }
