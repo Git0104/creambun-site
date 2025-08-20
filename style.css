@@ -93,12 +93,13 @@ body {
 
 .main-section {
     text-align: center;       /* 真ん中に揃える */
-    margin-top: 50px;
+    margin-top: 10px;
     font-weight: bold;
+    font-size: 5em; 
 }
 
 .main-title {
-    font-size: 5em;           /* 大きな文字 */
+    font-size: 1em;           /* 大きな文字 */
     font-weight: bold;
     color: black;
     margin-bottom: 30px;      /* 文字と画像の間の余白 */
@@ -134,5 +135,6 @@ body {
     font-weight: bold;
     color: black;
 }
+
 
 
