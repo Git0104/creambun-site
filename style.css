@@ -90,3 +90,22 @@ body {
     gap: 40px;                 /* ボタン間の間隔を40pxに調整 */
     margin-top: 20px;
 }
+
+.main-section {
+    text-align: center;       /* 真ん中に揃える */
+    margin-top: 50px;
+}
+
+.main-title {
+    font-size: 5em;           /* 大きな文字 */
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;      /* 文字と画像の間の余白 */
+}
+
+.main-image {
+    width: 300px;             /* 画像サイズ */
+    height: auto;             /* 高さ自動調整 */
+    border-radius: 10px;      /* 角を少し丸めたい場合 */
+}
+
