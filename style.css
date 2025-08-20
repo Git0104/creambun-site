@@ -127,4 +127,11 @@ body {
     border-radius: 10px;      /* 角を少し丸めたい場合 */
 }
 
+.center-text {
+    text-align: center;   /* 横方向の中央揃え */
+    font-size: 5em;       /* 大きな文字 */
+    font-weight: bold;
+    color: black;
+}
+
 
