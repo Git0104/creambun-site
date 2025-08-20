@@ -45,3 +45,28 @@ body {
     color: black;
     margin-bottom: 20px;
 }
+
+.links-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* ボタン間の間隔 */
+    flex-wrap: wrap;
+}
+
+.site-btn {
+    font-size: 1.8em;           /* 大きな文字 */
+    font-weight: bold;
+    color: #f0a500;             /* 文字色 */
+    text-decoration: none;
+    padding: 10px 20px;         /* 文字周りの余白 */
+    border: 2px solid #f0a500;  /* 線でボタンっぽく */
+    border-radius: 5px;          /* 角を少し丸める */
+    transition: all 0.3s ease;
+}
+
+.site-btn:hover {
+    color: white;
+    background-color: #f0a500;   /* ホバーで色が反転 */
+    border-color: #f0a500;
+}
+
