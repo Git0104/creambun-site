@@ -54,19 +54,33 @@ body {
 }
 
 .site-btn {
-    font-size: 1.8em;           /* 大きな文字 */
+    font-size: 1.8em;             /* 大きな文字 */
     font-weight: bold;
-    color: #f0a500;             /* 文字色 */
+    color: #ff4d4d;                /* 通常の赤 */
     text-decoration: none;
-    padding: 10px 20px;         /* 文字周りの余白 */
-    border: 2px solid #f0a500;  /* 線でボタンっぽく */
-    border-radius: 5px;          /* 角を少し丸める */
-    transition: all 0.3s ease;
+    padding: 10px 20px;            /* 文字周りの余白 */
+    border: 2px solid #ff4d4d;     /* 線も赤に */
+    border-radius: 5px;
+    transition: all 0.3s ease;     /* アニメーション */
 }
 
 .site-btn:hover {
-    color: white;
-    background-color: #f0a500;   /* ホバーで色が反転 */
-    border-color: #f0a500;
+    color: #ff1a1a;                /* ホバー時は少し暗い赤 */
+    border-color: #ff1a1a;         /* 線も同じ色に変化 */
 }
 
+.Xsite-btn {
+    font-size: 1.8em;            /* 大きめ文字 */
+    font-weight: bold;
+    color: #888888;               /* 通常は灰色 */
+    text-decoration: none;
+    padding: 10px 20px;           /* 文字周りの余白 */
+    border: 2px solid #888888;    /* 枠線も灰色 */
+    border-radius: 5px;
+    transition: all 0.3s ease;    /* スムーズに変化 */
+}
+
+.Xsite-btn:hover {
+    color: #000000;               /* ホバーで黒に */
+    border-color: #000000;        /* 枠線も黒に */
+}
